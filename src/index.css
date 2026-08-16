@@ -14,6 +14,8 @@
   --sans: system-ui, 'Segoe UI', Roboto, sans-serif;
   --heading: system-ui, 'Segoe UI', Roboto, sans-serif;
   --mono: ui-monospace, Consolas, monospace;
+  --font-arcade: 'Press Start 2P', monospace;
+  --font-terminal: 'VT323', monospace;
 
   font: 18px/145% var(--sans);
   letter-spacing: 0.18px;
@@ -56,7 +58,7 @@
   margin: 0 auto;
   text-align: center;
   background-color: #16171d;
-  min-height: 100svh;
+  height: 100svh;
   display: flex;
   flex-direction: column;
   box-sizing: border-box;

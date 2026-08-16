@@ -10,7 +10,10 @@ const nextPieces: TetrominoType[] = ['I', 'S']
 const leftStats: Stat[] = [
   { name: 'LEVEL', value: 8 },
   { name: 'LINES', value: 74 },
-  { name: 'TIME', value: new Date().toLocaleTimeString() },
+  {
+    name: 'TIME',
+    value: new Date().toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' }),
+  },
 ]
 
 const rightStats: Stat[] = [

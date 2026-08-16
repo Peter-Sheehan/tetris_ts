@@ -10,7 +10,8 @@
 
 .label {
   margin: 0;
-  font-size: 11px;
+  font-family: var(--font-arcade);
+  font-size: 9px;
   letter-spacing: 2px;
   color: #7fa6e8;
   text-transform: uppercase;
@@ -30,6 +31,6 @@
   justify-content: center;
   border: 1px solid rgba(255, 255, 255, 0.3);
   color: #0a0b14;
-  font-weight: bold;
+  font-family: var(--font-arcade);
   font-size: 12px;
 }

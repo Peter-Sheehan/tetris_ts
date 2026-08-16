@@ -1,0 +1,35 @@
+.appHeader {
+  border: 2px solid #3382fc;
+  width: 100%;
+  box-sizing: border-box;
+  box-shadow:
+    0 0 0 2px #050814,
+    0 0 30px rgba(47, 109, 246, 0.35);
+}
+.innerAppHeader {
+  border: 1px solid #1a428a;
+}
+
+.outerLayer {
+  border: 18px solid #122d63;
+}
+
+.outerInnerLayer {
+  border: 1px solid #1a428a;
+}
+.innerLayer {
+  border: 2px solid #5aa0ff;
+  background: linear-gradient(180deg, #241173, #170a52);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  height: 80px;
+}
+
+.innerLayer img {
+  max-width: 30%;
+  height: 45px;
+  filter: drop-shadow(0 3px 0 #7a4a00)
+    drop-shadow(0 0 18px rgba(255, 204, 0, 0.45));
+}

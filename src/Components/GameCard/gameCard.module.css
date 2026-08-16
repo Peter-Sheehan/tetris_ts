@@ -1,6 +1,18 @@
 .gameCard {
   display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 20px;
   width: 100%;
   max-width: 800px;
-  border: 1px solid #3382fc;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.board {
+  flex: 1;
+  max-width: 800px;
+  aspect-ratio: 1 / 2;
+  border: 2px solid #2f6df6;
+  background: #0a0b14;
 }

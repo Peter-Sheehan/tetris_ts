@@ -1,0 +1,28 @@
+.statsCard {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  border: 2px solid #2f6df6;
+  background: linear-gradient(180deg, #101a3c, #0a1130);
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.stat {
+  display: flex;
+  justify-content: space-between;
+  gap: 8px;
+}
+
+.name {
+  margin: 0;
+  font-size: 10px;
+  letter-spacing: 1px;
+  color: #7fa6e8;
+}
+
+.value {
+  margin: 0;
+  font-size: 14px;
+  color: #ffcc00;
+}

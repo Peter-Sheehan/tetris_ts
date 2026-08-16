@@ -1,0 +1,35 @@
+.holdPiece {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  border: 2px solid #2f6df6;
+  background: linear-gradient(180deg, #101a3c, #0a1130);
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.label {
+  margin: 0;
+  font-size: 11px;
+  letter-spacing: 2px;
+  color: #7fa6e8;
+  text-transform: uppercase;
+}
+
+.pieces {
+  display: flex;
+  gap: 6px;
+  flex-wrap: wrap;
+}
+
+.piece {
+  width: 36px;
+  height: 36px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  color: #0a0b14;
+  font-weight: bold;
+  font-size: 12px;
+}

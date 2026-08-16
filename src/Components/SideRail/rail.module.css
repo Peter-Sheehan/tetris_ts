@@ -1,0 +1,7 @@
+.rail {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  width: 140px;
+  flex-shrink: 0;
+}
